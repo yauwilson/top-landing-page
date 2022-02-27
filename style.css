@@ -11,10 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     background: #1F2937;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 50px;
-    padding-top: 16px;
+    padding: 25px 175px 100px;
 }
 
 .header {
@@ -53,15 +50,28 @@ button {
     color:#E5E7EB;
     border: none;
     border-radius: 8px;
-    padding: 8px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 8px 32px;
 }
 
 .quote {
     background-color: #E5E7EB;
     color:#1F2937;
-    padding: 32px;
+    padding: 100px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hero-main {
@@ -71,6 +81,7 @@ button {
 .hero-main-text {
     font-size: 48px;
     font-weight: bolder;
+    color: #F9FAF8;
 }
 
 .hero-secondary, a {
@@ -89,6 +100,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px;
 }
 
 .info-header {
@@ -100,8 +112,6 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 .info {
@@ -115,3 +125,33 @@ button {
     justify-content: center;
     padding: 16px;
 }
+
+.info-block, .quote {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.banner-container {
+    background-color: #3882F6;
+    margin: 100px 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.banner-container button {
+    border: solid;
+}
+
+.banner-title {
+    color:#E5E7EB;
+    font-size: 24px;
+}
+
+.banner-text {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+
